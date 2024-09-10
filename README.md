@@ -1,22 +1,18 @@
-Ethereum Deposit Tracker
 
-The Ethereum Deposit Tracker monitors ETH deposits made to the Beacon Chain Deposit Contract. 
-The application uses Alchemy’s Ethereum RPC services to fetch the deposits in real-time, logs them in a JSON file, and sends alerts through Telegram.
 
 
 Folder Structure
 
 Luganodes_Task/│
 ├── src/
-│   ├── alerts.js               # Telegram notification module
-│   ├── tracker.js              # Ethereum deposit tracking logic
-│   └── abi.js                  # ABI for the Beacon Deposit contract
-│
-├── .env                         # Environment variables for configuration
-├── deposits.json                # A file to log deposit events
-├── package.json                 # Dependencies and scripts
-├── package-lock.json            # Dependency lock file
-└── README.md                    # Project documentation
+│   ├── alerts.js               
+│   ├── tracker.js              
+│   └── abi.js                 
+├── .env                         
+├── deposits.json                
+├── package.json                 
+├── package-lock.json            
+└── README.md                    
 
 
 Follow these steps to set up the project:
