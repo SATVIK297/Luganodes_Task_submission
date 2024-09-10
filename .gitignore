@@ -1,0 +1,44 @@
+# Ignore the build directory
+/build/
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+*.a
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore test results
+test-results/
+
+# Ignore dependency directories
+vendor/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
